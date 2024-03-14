@@ -1,8 +1,10 @@
-basic_foods = ("Shrimp Salad", "Calamar Rings", "Oyster Plates", "Crab Meat", "Edam Wheel")
+sales = {   
+        'India' : 100,
+        'China' : 500,
+        'USA' : 800,
+        'UK' : 900,
+        'Japan' : 700
+         }
 
-for food in basic_foods:
-    print(food)
-
-basic_foods = ("Shrimp Salad", "Calamar Rings", "Oyster Plates", "Tuna Steak", "Octopus Eyes")
-for newMenu in basic_foods:
-    print(newMenu)
+sales_sorted_byvalues = sorted(sales.items(), key=lambda x: x[1])
+print(sales_sorted_byvalues)
