@@ -1,32 +1,31 @@
-# --------EXERCICE PAGE 41
-invited_guests = ["wild boar", "my bike", "Phoenix", "Screwdriver", "T90 Shtora"]
-print(invited_guests)
+#  Store the locations in a list. Make sure the list is not in alphabetical order.
+places = ["Russia", "Belarus", "USA", "Czech Republic", "Peru"]
 
-absent_guest = invited_guests[0]
-print(f'absent guest is : {invited_guests[0]}')
-invited_guests.remove(absent_guest)
-invited_guests.append("Timon")
+#  Print your list in its original order. Don’t worry about printing the list neatly; just print it as a raw Python list.
+print(places)
 
-print(f'\t{invited_guests[0]}, welcome to the party, we have insects.')
-print(f'\t{invited_guests[1]}, welcome my darling. ')
-print(f'\t{invited_guests[2]}, welcome, don\'t scare me like that time.')
-print(f'\t{invited_guests[3]}, welcome boss.')
-print(f'\t{invited_guests[4]}, welcome red scary eyes.')
+# Use sorted() to print your list in alphabetical order without modifying the actual list.
+print(sorted(places))
 
-print(invited_guests)
+# Show that your list is still in its original order by printing it.
+print(places)
 
-# we found an extra table
-more_guests = ["RedBlack Shoes", "Black Panther Cat", "One Orange Brain cell Cat"]
-invited_guests.insert(0, more_guests[0])
-invited_guests.insert(3, more_guests[1])
-invited_guests.insert(7, more_guests[2])
-print(invited_guests)
+# Use sorted() to print your list in reverse-alphabetical order without changing the order of the original list
+print(sorted(places, reverse=True))
 
-# we found an extra table, but it supports 2 invitees only, one has to go.
-print(f'sorry {invited_guests[7]}, no place for you now, next time for sure!')
-invited_guests.pop(7)
-print(f'you guys are still invited: \n\t{invited_guests[0]}. \n\t{invited_guests[3]}. ')
-more_guests.clear()
-# no more queue.
-print(more_guests)
-# --------EXERCICE PAGE 41 END
+# Show that your list is still in its original order by printing it again
+print(places)
+
+# Use reverse() to change the order of your list. Print the list to show that its order has changed.
+places.reverse()
+
+# Use reverse() to change the order of your list again. Print the list to show it’s back to its original order.
+print(places)
+
+# Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
+places.sort()
+print(places)
+
+# Use sort() to change your list so it’s stored in reverse-alphabetical order. Print the list to show that its order has changed
+places.sort(reverse=True)
+print(places)
