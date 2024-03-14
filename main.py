@@ -1,31 +1,13 @@
-#  Store the locations in a list. Make sure the list is not in alphabetical order.
-places = ["Russia", "Belarus", "USA", "Czech Republic", "Peru"]
+# 4.1 Think of at least three kinds of your favorite pizza. Store these pizza names in a list, and then use a for loop to print the name of each pizza
+favorite_pizzas = ["Sea-Food Pizza", "Vegetarian Pizza", "Mushroom Pizza"]
+for pizza in favorite_pizzas:
+    print(f'I like {pizza}.')
+print("I really love Pizza.")
 
-#  Print your list in its original order. Don’t worry about printing the list neatly; just print it as a raw Python list.
-print(places)
-
-# Use sorted() to print your list in alphabetical order without modifying the actual list.
-print(sorted(places))
-
-# Show that your list is still in its original order by printing it.
-print(places)
-
-# Use sorted() to print your list in reverse-alphabetical order without changing the order of the original list
-print(sorted(places, reverse=True))
-
-# Show that your list is still in its original order by printing it again
-print(places)
-
-# Use reverse() to change the order of your list. Print the list to show that its order has changed.
-places.reverse()
-
-# Use reverse() to change the order of your list again. Print the list to show it’s back to its original order.
-print(places)
-
-# Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
-places.sort()
-print(places)
-
-# Use sort() to change your list so it’s stored in reverse-alphabetical order. Print the list to show that its order has changed
-places.sort(reverse=True)
-print(places)
+# 4-2. Animals: Think of at least three different animals that have a common characteristic. Store the names of these animals in a list, and then use a for loop toprint out the name of each animal.
+animals = ["Tiger", "Leopard", "Lynx"]
+for animal in animals:
+    print(animal)
+print(f'{animals[0]}, is strong and aggresive.')
+print(f'{animals[1]}, is agile and spiritual.')
+print(f'{animals[2]}, is fluffy, yet a predator.')
