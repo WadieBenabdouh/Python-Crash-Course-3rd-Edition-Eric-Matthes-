@@ -1,4 +1,4 @@
-
+# --------EXERCICE PAGE 41
 invited_guests = ["wild boar", "my bike", "Phoenix", "Screwdriver", "T90 Shtora"]
 print(invited_guests)
 
@@ -29,3 +29,4 @@ print(f'you guys are still invited: \n\t{invited_guests[0]}. \n\t{invited_guests
 more_guests.clear()
 # no more queue.
 print(more_guests)
+# --------EXERCICE PAGE 41 END
