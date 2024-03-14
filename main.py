@@ -1,15 +1,8 @@
-numbers = list(range(0, 101))
+basic_foods = ("Shrimp Salad", "Calamar Rings", "Oyster Plates", "Crab Meat", "Edam Wheel")
 
-oddNumbers = [number for number in numbers if number % 2 != 0]
-print(oddNumbers)
+for food in basic_foods:
+    print(food)
 
-evenNumbers = [number for number in numbers if number % 2 == 0]
-print(evenNumbers)
-
-for number in numbers:
-    m_3 = [number * 3]
-    print(f'result : {m_3}')
-
-
-# fixed this above :)
-# page 60
+basic_foods = ("Shrimp Salad", "Calamar Rings", "Oyster Plates", "Tuna Steak", "Octopus Eyes")
+for newMenu in basic_foods:
+    print(newMenu)
