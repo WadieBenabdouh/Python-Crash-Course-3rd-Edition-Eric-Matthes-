@@ -7,8 +7,9 @@ evenNumbers = [number for number in numbers if number % 2 == 0]
 print(evenNumbers)
 
 for number in numbers:
-    number * 10
-multiples_three = [number]
+    m_3 = [number * 3]
+    print(f'result : {m_3}')
 
-# fix this above 
+
+# fixed this above :)
 # page 60
