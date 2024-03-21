@@ -1,10 +1,10 @@
-sales = {   
-        'India' : 100,
-        'China' : 500,
-        'USA' : 800,
-        'UK' : 900,
-        'Japan' : 700
-         }
+# EXERCISE PAGE 127 7/8
+sandwich_orders = ["hotdog", "sausage", "taco", "beef", "salad"]
+finished_sandwishes = []
 
-sales_sorted_byvalues = sorted(sales.items(), key=lambda x: x[1])
-print(sales_sorted_byvalues)
+for order in sandwich_orders:
+        print(f'I made your {order} sandwich')
+        finished_sandwishes.append(order)
+print(finished_sandwishes)
+
+# EXERCISE PAGE 127 7/9
